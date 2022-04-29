@@ -8,7 +8,7 @@ PLAINEDIT takes markdown, evaluates code blocks with interpreters and prints the
 ## MENU
 
 + [Offer - offer.plainedit.com](http://offer.plainedit.com/)
-+ [Website - www.plainedit.com](http://www.plainedit.com/)
++ [Sourcecode - bash.plainedit.com](http://bash.plainedit.com/)
 + [News - blog.plainedit.com](http://blog.plainedit.com/)
 + [Usecases - examples.plainedit.com](http://examples.plainedit.com/)
 
