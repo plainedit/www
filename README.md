@@ -3,7 +3,7 @@
 
 ![logo](http://logo.plainedit.com/2/cover.png)
 
-# [Website - www.plainedit.com](http://www.plainedit.com/)  [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/www/edit/main/DOCS/MENU.md)
+# [Website - www.plainedit.com](http://www.plainedit.com/)  [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/www/edit/master/DOCS/MENU.md)
 
 PLAINEDIT takes markdown, evaluates code blocks with interpreters and prints the output of those processes to a different codeblock.
 
@@ -86,7 +86,7 @@ example with FLAGS
 
 
 
-## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/www/edit/main/DOCS/EXAMPLES.md)
+## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/www/edit/master/DOCS/EXAMPLES.md)
 
 ![example-plainedit.com.png](DOCS/example-plainedit.com.png)
 

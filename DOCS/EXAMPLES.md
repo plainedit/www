@@ -1,5 +1,5 @@
 
-## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/www/edit/main/DOCS/EXAMPLES.md)
+## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/www/edit/master/DOCS/EXAMPLES.md)
 
 ![example-plainedit.com.png](DOCS/example-plainedit.com.png)
 
