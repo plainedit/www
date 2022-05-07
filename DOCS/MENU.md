@@ -11,11 +11,3 @@ PLAINEDIT takes markdown, evaluates code blocks with interpreters and prints the
 + [News - blog.plainedit.com](http://blog.plainedit.com/)
 + [Offer - offer.plainedit.com](http://offer.plainedit.com/)
 + [logo.plainedit.com](https://logo.plainedit.com/)
-+ [plainedit/www](https://github.com/plainedit/www)
-+ [LICENSE](LICENSE)
-
----
-
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/bash/edit/main/MENU.md)
-
----
