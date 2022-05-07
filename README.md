@@ -23,9 +23,7 @@ PLAINEDIT takes markdown, evaluates code blocks with interpreters and prints the
 
 ---
 
-
-
-## Start using PlainEdit
+## Start using PlainEdit [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/DOCS/START.md)
 
 List of projects
 ```bash
@@ -49,13 +47,7 @@ Markdow in Project Folder
 
 
 
----
-
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/bash/edit/main/START.md)
-
----
-
-## PROJECTS
+## PROJECTS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/DOCS/PROJECTS.md)
 
 Working with projects structure folder
 
@@ -75,6 +67,7 @@ The same, with folders
 ```
 
 Config Path where the project folder exist
+PlainEdit can be executed from another bash script with defined path, lLook at examples: [Examples - examples.plainedit.com](https://examples.plainedit.com/)
 ```bash
 ./plainedit --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
 ```
@@ -85,18 +78,12 @@ Authorisation
 ```
 
 
-
----
-
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/bash/edit/main/PROJECTS.md)
-
----
-## FLAGS
+## FLAGS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/DOCS/FLAGS.md)
 
 ### show only code
 example with FLAGS
-+ [IN ](1/in.md)
-+ [OUT ](1/out.md)
++ [IN ](../1/in.md)
++ [OUT ](../1/out.md)
 
 ### show only code at selected script
 example with FLAGS
@@ -106,86 +93,23 @@ example with FLAGS
 
 
 
----
+## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/EXAMPLES.md)
 
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/bash/edit/main/FLAGS.md)
+![example-plainedit.com.png](DOCS/example-plainedit.com.png)
 
----
-## EXAMPLE
++ [examples.plainedit.com/1](http://examples.plainedit.com/1/)
++ [examples.plainedit.com/2](http://examples.plainedit.com/2/)
 
-PlainEdit can be executed from another bash script with defined path
-Look at examples: [Examples - examples.plainedit.com](https://examples.plainedit.com/)
-
+Authorisation
 ```bash
-./plainedit.sh --path "/media/tom/projects/plainedit/1" "in.md" "out.md"
+./plainedit "1/in.md" "1/out.md" "1/auth.md"
 ```
 
-## RESULT:
 
----
 
-OUTPUT FILE:
 
----
+## ROADMAP [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/roadmap/edit/main/DOCS/ROADMAP.md)
 
-## MKDIR
-
-Create new Folder
-
-```bash
-mkdir TEST
-```
-EXECUTED bash:
-```bash
-mkdir: das Verzeichnis »TEST“ kann nicht angelegt werden: Die Datei existiert bereits
-```
-
-## PHP version
-
-Check PHP version
-
-```bash
-php -version
-```
-EXECUTED bash:
-```bash
-PHP 8.0.8 (cli) (built: Mar  3 2022 14:51:53) ( NTS )
-Copyright (c) The PHP Group
-Zend Engine v4.0.8, Copyright (c) Zend Technologies
-    with Zend OPcache v8.0.8, Copyright (c), by Zend Technologies
-```
-
-## PHP script
-
-Show global variable
-
-```php
-class Fruit {
-    public $name;
-  
-    function __construct($name) {
-      $this->name = $name;
-    }
-    function __toString() {
-      return $this->name;
-    }
-}
-
-$apple = new Fruit("Apple");
-echo (string ) $apple;
-```
-EXECUTED php:
-```php
-Apple
-```
-
----
-
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/bash/edit/main/EXAMPLE.md)
-
----
-
-## ROADMAP
 
 ### INTERNAL COMMANDS
 
@@ -411,12 +335,6 @@ github.plainedit.com/:user/:
 gitlab.plainedit.com/:user/:script
 
 
-
----
-
- > [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/roadmap/edit/main/ROADMAP.md)
-
----
 ## Offer
 
 3 different groups of users:
@@ -428,7 +346,7 @@ gitlab.plainedit.com/:user/:script
 
 ---
 
-## DOCS
+## DOCS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/DOCS/DOCS.md)
 
 ### markdown
 
@@ -442,8 +360,10 @@ pod2text test_out.md
 + [Bash Split String Examples](https://linuxhint.com/bash_split_examples/)
 
 
----
-
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/bash/edit/main/DOCS.md)
 
 ---
+
++ [git plainedit](https://github.com/plainedit)
++ [git plainedit/www](https://github.com/plainedit/www)
++ [LICENSE](LICENSE)
+
