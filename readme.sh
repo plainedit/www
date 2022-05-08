@@ -18,20 +18,6 @@ LOCAL_PATH=$(pwd)
 echo "`date +"%T.%3N"` START" > $LOGS
 echo "$(date +"%T.%3N") CREATE_MENU" >> $LOGS
 #
-DOMAIN=$(cat CNAME)
-echo "+ [$DOMAIN](http://$DOMAIN)" > DOCS/PROJECTS.md
-echo "+ [$LOCAL_PATH](file://$LOCAL_PATH/)" > DOCS/PROJECTS_LOCAL.md
-#
-for FILE in */in.md; do
-  line=$(head -n 1 $FILE)
-  #echo "$FILE $line"
-  #echo PROTOCOL=${URL%%://*}
-  NAME=${FILE%%/*}
-  URL=$DOMAIN/$NAME
-  echo "+ [$NAME $line](http://$URL)" >> DOCS/PROJECTS.md
-  echo "+ [$NAME $line](file://$LOCAL_PATH/$NAME/index.html)" >> DOCS/PROJECTS_LOCAL.md
-done
-
 ## combine from another sites
 echo "$(date +"%T.%3N") COMBINE_FILES" >> $LOGS
 
