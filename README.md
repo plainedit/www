@@ -23,65 +23,51 @@ List of projects
 ./plainedit.sh
 ```
 
-Run macro for 1/in.md
-```bash
-./plainedit.sh 1
-```
-
 INPUT and OUTPUT file
 ```bash
 ./plainedit.sh "in.md" "out.md"
 ```
 
-Markdow in Project Folder
+Run macro for 1/in.md
+```bash
+./plainedit.sh 1
+```
+
+Markdown in Project Folder
 ```bash
 ./plainedit.sh "1/in.md" "1/out.md"
 ```
 
-
-
-## PROJECTS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/DOCS/PROJECTS.md)
-
-Working with projects structure folder
-
-files structure
-```
-1
-    in.md
-    out.md
-2
-    in.md
-    out.md
-```
-
-The same, with folders
-```bash
-./plainedit "1/in.md" "1/out.md" 
-```
-
 Config Path where the project folder exist
-PlainEdit can be executed from another bash script with defined path, lLook at examples: [Examples - examples.plainedit.com](https://examples.plainedit.com/)
+PlainEdit can be executed from another bash script with defined path, look at examples: [Examples - examples.plainedit.com](https://examples.plainedit.com/)
+
+It works here
 ```bash
-./plainedit --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
+./plainedit.sh --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
 ```
 
-Authorisation
-```bash
-./plainedit "1/in.md" "1/out.md" "1/auth.md"
-```
-
++ [bash.plainedit.com](http://bash.plainedit.com)
++ [1 # www.bashfunc.com](http://bash.plainedit.com/1)
 
 ## FLAGS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/DOCS/FLAGS.md)
 
 ### show only code
 example with FLAGS
+IN
 + [IN ](../1/in.md)
++ [HTML](2/in.md)
+OUT
 + [OUT ](../1/out.md)
++ [HTML](1/in.md)
 
 ### show only code at selected script
 example with FLAGS
-+ [IN ](2/in.md)
-+ [OUT ](2/out.md)
+IN
++ [MD](../2/in.md) 
++ [HTML](2/in.md)
+OUT
++ [MD](../2/out.md)
++ [HTML](2/out.md)
 
 
 
